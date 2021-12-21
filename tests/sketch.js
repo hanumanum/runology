@@ -5,6 +5,6 @@ function setup() {
 
 function draw() {
     background(0)
-    let stroke = map(sin(frameCount/20), -1, 1, 2, 5)
-    drawRune(hagalaz, 300, 100, "blue", stroke)
+    //let stroke = map(sin(frameCount/20), -1, 1, 2, 5)
+    drawRune(nautiz, 300, 100, "blue", 3)
 }

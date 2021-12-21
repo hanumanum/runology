@@ -8,7 +8,7 @@ function mouseClicked(){
 }
 
 function setup() {
-    createCanvas(800, 800)
+    createCanvas(1500, 800)
     background("black")
 }
 
