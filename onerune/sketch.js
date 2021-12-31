@@ -1,3 +1,7 @@
+//DEBUG GLOBALS
+const SHOWBOUNDS = true
+const SHOWCENTER = true
+
 let castrune
 
 async function preload() {

@@ -1,3 +1,7 @@
+//DEBUG GLOBALS
+const SHOWBOUNDS = true
+const SHOWCENTER = true
+
 //let arr;
 let allowModif = true
 //let crdX = 0
