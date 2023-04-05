@@ -1,4 +1,4 @@
-/// <reference path="../addons/TSDef/p5.global-mode.d.ts" />
+/// <reference path="../00addons/TSDef/p5.global-mode.d.ts" />
 
 //DEBUG GLOBALS
 const SHOWBOUNDS = true

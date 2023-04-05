@@ -1,4 +1,4 @@
-/// <reference path="../addons/TSDef/p5.global-mode.d.ts" />
+/// <reference path="../00addons/TSDef/p5.global-mode.d.ts" />
 
 function* genDrawSequence(arr, x, y, r, margin) {
     while (figure = arr.shift()) {
