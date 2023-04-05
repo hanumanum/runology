@@ -21,12 +21,12 @@ function setup() {
     createCanvas(window.innerWidth, window.innerHeight)
     background("black")
     angleMode(DEGREES)
-    makeBindRune()
+    nextRune()
     //blendMode(SUBTRACT) //DIFFERENCE !, REPLACE :) , 
 }
 
 
-function makeBindRune() {
+function nextRune() {
     const futhark = getFuthark()
 
     const rune1Index = getRandomInteger(0, futhark.length - 1)
@@ -57,7 +57,7 @@ function draw() {
 
     if (r1.done && r2.done) {
         noLoop()
-        makeBindRune()
+        nextRune()
     }
 
 }
