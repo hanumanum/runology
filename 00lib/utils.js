@@ -4,6 +4,7 @@ window.onload = function () {
                        <a href="../futhark-aminated/index.html">futhark animated</a> 
                        <a href="../bind-rune/index.html">bind-rune</a>
                        <a href="../vertical staves/index.html">vertical staves</a>
+                       <a href="../wyrd/index.html">wyrd</a>
                        <a href="../tests/index.html">tests</a>
                        `;
 }

@@ -234,3 +234,7 @@ async function getQuantumRandomNumbers(length = 1) {
 function getRandomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
+
+function getRandomColor() {
+    return color(getRandomInteger(0, 255), getRandomInteger(0, 255), getRandomInteger(0, 255))
+}
